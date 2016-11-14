@@ -1,0 +1,13 @@
+===========
+   SETUP
+===========
+1. npm init
+2. npm install --save-dev gulp gulp-concat gulp-babel gulp-minify gulp-rename gulp-clean-css del webpack babel-preset-react babel-preset-es2015 babel-preset-latest
+3. add to package.json:
+  "babel": {
+    "presets": [
+      "latest",
+      "react",
+      "es2015"
+    ]
+  }
