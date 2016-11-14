@@ -41,8 +41,8 @@ gulp.task('clean', function() {
 
 gulp.task('build', ['compileJS', 'minifyCSS'], function() {
   return gulp.src([
-    'css/styles.css',
-    'js/App.js',
+    'css/Styles.min.css',
+    'js/App.min.js',
     'data/**',
     'media/**/**',
     '*.html'
